@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.page-wrap{
+    display: block;
+}
+aside{
+    height: 100vh;
+}
+main{
+    height: 100vh;
+}
+.main-aside{
+    position: fixed;
+    height: 100vh;
+    background-color: #fff;
+}
+.main-nav__item{
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 35px;
+}
+.main-nav__item a{
+    text-decoration: none;
+    color: #adb5bd;
+}
+footer{
+    margin-top: 300px;
+    overflow: auto;
+}
+
+.social-media{
+    text-align: center;
+}
+.fa-brands{
+    font-size: 30px;
+    color: #adb5bd;
+}
+.fa-brands:hover{
+    color: aqua;
+}
+.footer-text{
+    font-family: 'Ms Madi', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-about{
+    text-align: center;
+    margin-top: 10px;
+}
+main{
+    float: left;
+}
+.main-wrap{
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-right: auto;
+}
+.mobile-footer{
+    display: none;
+}
+.mobile-nav_card,.mobile-nav{
+    display: none!important;
+}
+.m-nav{
+    display: none;
+}
+.mobile-nav__item{
+    list-style: none;
+}
+.mobile-nav__item a{
+    text-decoration: none;
+}
+.img-thumbnail{
+    background: none!important;
+}
+
+@media (max-width:768px){
+
+    .main-aside{
+        display: block!important;
+        position: static;
+        width: 100%;
+        height: 40vh;
+    }
+    .main-aside img{
+        margin-top: 55px;
+    }
+    .main-wrap{
+        display: block!important;
+        width: 100%;
+        margin: 40px auto;
+    }
+    .g-footer{
+        display: none;
+    }
+    .main-nav__item{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+        width: 100vw;
+        background-color: #fff;
+        padding: 20px;
+    }
+    .mobile-nav_card{
+        display: block!important;
+        height: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .mobile-nav_card i{
+        margin-top: 15px;
+    }
+  
+    .m-nav .mobile-nav{
+        display: block!important;
+        text-align: left;
+    }
+}
+
+/* About me */
+
+.main-about{
+    margin-top: 60px;
+}
+.about-me{
+    margin-left: 20px;
+}
+.about-me h3{
+    text-align: center;
+}
