@@ -1,2 +1,2 @@
 # kaankarakus.me
-Blog Sitesi
+My basic blog site
